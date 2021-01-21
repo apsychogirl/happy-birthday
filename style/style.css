@@ -297,4 +297,28 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+
+  .bg-music{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .btn{
+    background-color: #347a9d;
+    color: #c66053;
+    font-size: 78px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    opacity: .3;
+    transition: all linear .2s;
+  }
+  .btn:hover{
+    opacity: 1;
+  }
+  .fa-pause-circle-o{
+    display: none;
+  }
 }
